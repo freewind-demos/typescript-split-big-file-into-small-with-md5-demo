@@ -1,10 +1,14 @@
 {
   "scripts": {
-    "demo": "ts-node hello.ts"
+    "demo": "ts-node hello.ts",
+    "generate-big-file": "dd if=/dev/urandom of=bigfile.bin count=16 bs=1048576"
   },
   "devDependencies": {
     "@types/node": "8.9.5",
     "ts-node": "7.0.1",
     "typescript": "3.2.2"
+  },
+  "dependencies": {
+    "split-file": "2.2.0"
   }
 }

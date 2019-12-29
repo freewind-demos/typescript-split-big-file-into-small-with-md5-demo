@@ -1,18 +1,10 @@
-TypeScript Hello World Demo
-===========================
+TypeScript Split Big File into Small with Md5 Demo
+====================================================
 
 ```
 npm install
+npm run generate-big-file
 npm run demo
 ```
 
-Note:
-
-`esModuleInterop` is recommended to set to `true`,
-since we can have consistent importing syntax with babel,
-always use:
-
-```
-import some from 'some'
-```
-
+Then check "./smallFiles" dir.
